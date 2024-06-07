@@ -190,7 +190,7 @@ namespace Paint_Application
 
         }
 
-        static Point set_point(PictureBox pb, Point pt)
+        static Point set_point(PictureBox pb, Point pt)//定位點選color picker(PictureBox)的位置
         {
             float pX = 1f * pb.Image.Width / pb.Width;
             float pY = 1f * pb.Image.Height / pb.Height;
