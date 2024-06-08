@@ -74,7 +74,8 @@ namespace Paint_Application
                     py = e.Location;
                     g.DrawLine(pen, px, py);
                     px = py;
-                    
+
+
                 }
 
                 if (index == 2)
@@ -86,7 +87,7 @@ namespace Paint_Application
 
             }
 
-            pic.Refresh();
+            pic.Refresh();//及時update畫布
 
             x = e.X;
             y = e.Y;
